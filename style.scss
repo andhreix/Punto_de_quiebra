@@ -1,5 +1,15 @@
+$bedugreen: #2bb673;
+
 #header {
+  background-color: black;
   img {
     width: 80px;
+  }
+  li {
+    a {
+      &:hover {
+        color: $bedugreen;
+      }
+    }
   }
 }

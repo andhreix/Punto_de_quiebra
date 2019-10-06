@@ -1,4 +1,12 @@
+#header {
+  background-color: black;
+}
+
 #header img {
   width: 80px;
+}
+
+#header li a:hover {
+  color: #2bb673;
 }
 /*# sourceMappingURL=style.css.map */
