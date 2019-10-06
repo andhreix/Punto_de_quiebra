@@ -6,6 +6,10 @@
   width: 80px;
 }
 
+#header li {
+  font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+}
+
 #header li a:hover {
   color: #2bb673;
 }
