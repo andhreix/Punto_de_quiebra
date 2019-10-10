@@ -14,3 +14,29 @@ $bedugreen: #2bb673;
     }
   }
 }
+
+#main {
+  .carousel-inner {
+    img {
+      max-height: 80vh;
+      object-fit: cover;
+      filter: grayscale(80%);
+    }
+  }
+}
+.carousel-caption {
+  right: 20%;
+  left: 20%;
+  padding-bottom: 20%;
+}
+.dark:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.6;
+}
