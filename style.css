@@ -1,5 +1,5 @@
 #header {
-  background-color: black;
+  background-color: black !important;
 }
 
 #header img {
@@ -42,5 +42,114 @@
 
 .boton {
   border-radius: 15px;
+}
+
+#BK-1 {
+  background: black;
+}
+
+.cajas {
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+}
+
+.cajas img {
+  width: 50px;
+  height: 50px;
+}
+
+.carta {
+  background-color: #000;
+}
+
+.overlay {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(gray), to(#000));
+  background: linear-gradient(#000, gray, #000);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: none;
+}
+
+.workers {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.workersContent {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tiempo {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.tiempo :hover .overlayR {
+  opacity: 1;
+}
+
+.tiempo img {
+  width: 70px;
+  height: 70px;
+}
+
+.overlayR {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.img-holde {
+  width: 124px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.text-holder {
+  width: calc(100% - 144px);
+  padding: 30px;
+}
+
+.top-text-block {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.img-holder {
+  float: left;
+}
+
+.img-holder img {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-right: 20px;
+}
+
+.img-holder h5 {
+  font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+}
+
+.img-holder h5:hover {
+  color: #2bb673;
+}
+
+.img-holder p {
+  margin-left: 65px;
+  font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+}
+
+.text-a {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

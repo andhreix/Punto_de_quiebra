@@ -1,7 +1,7 @@
 $bedugreen: #2bb673;
 
 #header {
-  background-color: black;
+  background-color: black !important;
   img {
     width: 80px;
   }
@@ -43,3 +43,71 @@ $bedugreen: #2bb673;
 .boton {
   border-radius: 15px;
 }
+
+#BK-1 {
+  background: black;
+}
+
+.cajas {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+}
+
+.carta {
+  background-color: #000;
+}
+.overlay {
+  background: linear-gradient(#000, gray, #000);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: none;
+}
+.workers {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.workersContent {
+  text-align: center;
+  margin-top: 30px;
+}
+.tiempo {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  :hover .overlayR {
+    opacity: 1;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+  }
+}
+.overlayR {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.img-holde {
+  width: 124px;
+  text-align: center;
+  margin-right: 10px;
+}
+.text-holder {
+  width: calc(100% - 144px);
+  padding: 30px;
+}
+
+@import "sectablas/sectablas";
+
+@import "calltoact/calltoact";

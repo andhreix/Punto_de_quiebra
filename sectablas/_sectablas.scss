@@ -1,0 +1,25 @@
+.top-text-block {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.img-holder {
+  float: left;
+  img {
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-right: 20px;
+  }
+  h5 {
+    font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+    &:hover {
+      color: $bedugreen;
+    }
+  }
+  p {
+    margin-left: 65px;
+    font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+  }
+}
